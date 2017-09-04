@@ -1,0 +1,34 @@
+{
+  "name": "socks5js",
+  "version": "0.1.0",
+  "description": "socks5 server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengchongfu/socks5js.git"
+  },
+  "keywords": [
+    "socks5"
+  ],
+  "author": "pengchongfu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengchongfu/socks5js/issues"
+  },
+  "homepage": "https://github.com/pengchongfu/socks5js#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.1.0",
+    "prettier": "^1.6.1"
+  }
+}
