@@ -8,18 +8,13 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,json,css}": ["prettier --no-semi --single-quote --write", "git add"]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pengchongfu/socks5js.git"
   },
-  "keywords": [
-    "socks5"
-  ],
+  "keywords": ["socks5"],
   "author": "pengchongfu",
   "license": "ISC",
   "bugs": {
